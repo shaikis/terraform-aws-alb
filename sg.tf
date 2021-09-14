@@ -1,5 +1,5 @@
 #LB SG 
-resource "aws_security_group" "alb_app_http" {
+resource "aws_security_group" "alb_app_http_sg" {
   name        = var.lb_sg_name
   vpc_id      = var.vpc_id
 
