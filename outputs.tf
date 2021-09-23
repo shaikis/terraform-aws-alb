@@ -10,6 +10,3 @@ output "alb_app_http_sg_id" {
     value = aws_security_group.alb_app_http_sg.id
 }
 
-output "private_cidr" {
-    value = ""
-}
